@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/looks.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@400&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair Display:ital,wght@0,400;1,700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Girassol:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="div3">
+    <div class="child35"></div>
+    <div class="child36"></div>
+    <div class="child37"></div>
+    <div class="child38"></div>
+    <div class="child39"></div>
+    <img class="child40" alt="" src="/img/star-3.svg" />
+
+    <img class="child41" alt="" src="/img/star-3.svg" />
+
+    <img class="child42" alt="" src="/img/star-3.svg" />
+
+    <img class="child43" alt="" src="/img/star-3.svg" />
+
+    <img class="child44" alt="" src="/img/star-3.svg" />
+
+    <img class="child45" alt="" src="/img/star-3.svg" />
+
+    <img class="child46" alt="" src="/img/star-3.svg" />
+
+    <div class="sparkle3" id="sparkleText">sparkle</div>
+    <img class="icon-13" alt="" src="/img/icon-1@2x.png" id="icon1Image" />
+
+    <img class="icon-2" alt="" src="/img/icon-2@2x.png" id="icon2" />
+
+    <img class="image-1-icon3" alt="" src="/img/image-1@2x.png" />
+
+    <div class="seu-look-est">Seus looks!</div>
+
+
+    <div class="looks-partials">
+    {{#each looks}}  
+      {{>looksPartial-inicial}}
+    {{/each}}
+    </div>
+
+  </div>
+
+  <script>
+    var sparkleText = document.getElementById("sparkleText");
+    if (sparkleText) {
+      sparkleText.addEventListener("click", function (e) {
+        window.location.href = "./Component6.html";
+      });
+    }
+
+    var icon1Image = document.getElementById("icon1Image");
+    if (icon1Image) {
+      icon1Image.addEventListener("click", function (e) {
+        window.location.href = "./Component6.html";
+      });
+    }
+
+    var icon2 = document.getElementById("icon2");
+    if (icon2) {
+      icon2.addEventListener("click", function (e) {
+        window.location.href = "./Component6.html";
+      });
+    }
+  </script>
+</body>
+
+</html>

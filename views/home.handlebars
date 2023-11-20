@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@400&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair Display:ital,wght@0,400;1,700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Girassol:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="div5">
+    <div class="child60"></div>
+    <div class="child61"></div>
+    <div class="child62"></div>
+    <div class="child63"></div>
+    <div class="child64"></div>
+    <img class="child65" alt="" src="/img/star-3.svg" />
+
+    <img class="child66" alt="" src="/img/star-3.svg" />
+
+    <img class="child67" alt="" src="/img/star-3.svg" />
+
+    <img class="child68" alt="" src="/img/star-3.svg" />
+
+    <img class="child69" alt="" src="/img/star-3.svg" />
+
+    <img class="child70" alt="" src="/img/star-3.svg" />
+
+    <img class="child71" alt="" src="/img/star-3.svg" />
+
+    <div class="sparkle5">sparkle</div>
+    <img class="icon-15" alt="" src="/img/icon-1@2x.png" />
+
+    <img class="image-1-icon5" alt="" src="/img/image-1@2x.png" />
+
+    <div class="sparkle6">sparkle</div>
+    <div class="faa-login-ou">
+      Faça login ou cadastre-se na plataforma que guarda seus looks na palma
+      da sua mão!
+    </div>
+    <div class="rectangle-parent9" id="groupContainer">
+      <div class="group-child8"></div>
+      <div class="entrar">Entrar</div>
+    </div>
+    <div class="no-cadastrado-container" id="noCadastrado">
+      <span>Não é cadastrado? </span>
+      <a href="/cadastrar">
+        <i class="cadastre-se-aqui">Cadastre-se aqui</i>
+      </a>
+    </div>
+  </div>
+
+  <div id="frameContainer" class="popup-overlay" style="display: none">
+    <div class="rectangle-parent">
+      <div class="frame-child"></div>
+      <div class="rectangle-group">
+        <form action="/login" method="post">
+          <input name="email" placeholder="Email" type="email" class="group-child"></input>
+      </div>
+      <div class="rectangle-container">
+        <input name="password" placeholder="Senha" type="password" class="group-child"></input>
+      </div>
+      <div class="group-div" id="popupgroupContainer2">
+        <button id="confirmar" type="submit" class="group-inner">Confirmar</button>
+
+      </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    /*var popupgroupContainer2 = document.getElementById(
+      "popupgroupContainer2",
+    );
+    if (popupgroupContainer2) {
+      popupgroupContainer2.addEventListener("click", function (e) {
+        window.location.href = "./Component6.html";
+      });
+    }*/
+
+    var groupContainer = document.getElementById("groupContainer");
+    if (groupContainer) {
+      groupContainer.addEventListener("click", function () {
+        var popup = document.getElementById("frameContainer");
+        if (!popup) return;
+        var popupStyle = popup.style;
+        if (popupStyle) {
+          popupStyle.display = "flex";
+          popupStyle.zIndex = 100;
+          popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+          popupStyle.alignItems = "center";
+          popupStyle.justifyContent = "center";
+        }
+        popup.setAttribute("closable", "");
+
+        var onClick =
+          popup.onClick ||
+          function (e) {
+            if (e.target === popup && popup.hasAttribute("closable")) {
+              popupStyle.display = "none";
+            }
+          };
+        popup.addEventListener("click", onClick);
+      });
+    }
+
+    var noCadastrado = document.getElementById("noCadastrado");
+    if (noCadastrado) {
+      noCadastrado.addEventListener("click", function (e) {
+        window.location.href = "./Component3.html";
+      });
+    }
+  </script>
+
+  <!-- Start of mamaras Zendesk Widget script -->
+  <script id="ze-snippet"
+    src="https://static.zdassets.com/ekr/snippet.js?key=ae042d46-b0dc-42ca-99b8-b6f754344ed1"> </script>
+  <!-- End of mamaras Zendesk Widget script -->
+</body>
+
+</html>

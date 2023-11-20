@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+button {
+  font-size: 20px;
+}
+
+:root {
+  /* fonts */
+  --font-playfair-display: "Playfair Display";
+  --font-nunito-sans: "Nunito Sans";
+  --font-girassol: Girassol;
+  --font-pacifico: Pacifico;
+  --font-playfair-display-sc: "Playfair Display SC";
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-15xl: 34px;
+  --font-size-21xl: 40px;
+  --font-size-26xl: 45px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-lightpink: #f5abc6;
+  --color-gray: #fdfdfd;
+  --color-aliceblue: #f6fcff;
+  --color-honeydew: #dbf3d9;
+  --color-lavender: #eddbff;
+  --color-powderblue: #bcecf0;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+}

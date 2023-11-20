@@ -1,0 +1,142 @@
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='initial-scale=1, width=device-width' />
+  <link rel='stylesheet' href='/css/global.css' />
+  <link rel='stylesheet' href='/css/página_inicial.css' />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Nunito Sans:wght@400&display=swap' />
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Playfair Display:ital,wght@0,400;1,700&display=swap' />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Girassol:wght@400&display=swap' />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@400&display=swap' />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap' />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap' />
+</head>
+
+<body>
+  <div class='div7'>
+    <div class='child83'></div>
+    <div class='child84'></div>
+    <div class='child85'></div>
+    <div class='child86'></div>
+    <div class='child87'></div>
+    <div class='child88'></div>
+    <div class='fotografado-por-steven'>
+      Fotografado por Steven Meisel, Vogue, maio de 2009
+    </div>
+    <img class='capa-1-icon' alt='' src='/img/capa-1@2x.png' />
+
+    <img class='child89' alt='' src='/img/star-3.svg' />
+
+    <img class='child90' alt='' src='/img/star-3.svg' />
+
+    <img class='child91' alt='' src='/img/star-3.svg' />
+
+    <img class='child92' alt='' src='/img/star-3.svg' />
+
+    <img class='child93' alt='' src='/img/star-3.svg' />
+
+    <img class='child94' alt='' src='/img/star-3.svg' />
+
+    <img class='child95' alt='' src='/img/star-3.svg' />
+
+    <div class='sparkle8'>sparkle</div>
+    <img class='icon-17' alt='' src='/img/icon-1@2x.png' />
+
+    <img class='image-1-icon7' alt='' src='/img/image-1@2x.png' />
+
+    <div class='faa-a-moda'>faça a moda acontecer</div>
+    <div class='seu-closet-na-container'>
+      <p class='seu-closet-na'>
+        Seu closet na palma da sua mão, escolher o look nunca foi tão fácil!
+      </p>
+      <p class='seu-closet-na'>&nbsp;</p>
+      <p class='seu-closet-na'>&nbsp;</p>
+      <p class='faa-upload-de'>
+        Faça upload de suas roupas e seu guarda roupa inteligente irá montar a
+        combinação perfeita para você.
+      </p>
+    </div>
+    <div class="look-flex">
+      <img class='imageup-1-icon4' alt='' src='/img/imageup-11@2x.png' id='imageup1' />
+      <form action='/postLook' method='post'>
+        <input value='' type='hidden' name='parte_cima' />
+        <input value='' type='hidden' name='parte_baixo' />
+        <input value='' type='hidden' name='calcado' />
+        <input value='' type='hidden' name='acessorio' />
+        <div class='rectangle-parent11' id='groupContainer'>
+          <button type='submit' class='group-child10'>Combinar</button><br /><br />
+        </div>
+      </form>
+
+      <div class='pea-de-cima2' id='peaDeCima'>Peça de Cima</div>
+      <div class='pea-de-baixo2' id='peaDeBaixo'>Peça de Baixo</div>
+      <div class='calado3' id='caladoText'>Calçado</div>
+      <img class='imageup-2-icon' alt='' src='/img/imageup-11@2x.png' id='imageup2' />
+
+      <img class='imageup-3-icon' alt='' src='/img/imageup-11@2x.png' id='imageup3' />
+
+      <img class='imageup-4-icon' alt='' src='/img/imageup-11@2x.png' id='imageup4' />
+
+      <div class='acessrio2' id='acessrioText'>Acessório</div>
+    </div>
+  </div>
+  <script src='/js/getLocalStorage.js'></script>
+  <script>
+    var imageup1 = document.getElementById("imageup1"); if (imageup1) {
+      imageup1.addEventListener("click", function (e) {
+        window.location.href =
+          "/pecadecima";
+      });
+    } var groupContainer =
+      document.getElementById("groupContainer"); if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./Component2.html";
+        });
+      } var peaDeCima =
+        document.getElementById("peaDeCima"); if (peaDeCima) {
+          peaDeCima.addEventListener("click", function (e) {
+            window.location.href =
+              "./Component5.html";
+          });
+        } var peaDeBaixo =
+          document.getElementById("peaDeBaixo"); if (peaDeBaixo) {
+            peaDeBaixo.addEventListener("click", function (e) {
+              window.location.href =
+                "./Component1.html";
+            });
+          } var caladoText =
+            document.getElementById("caladoText"); if (caladoText) {
+              caladoText.addEventListener("click", function (e) {
+                window.location.href =
+                  "./Component.html";
+              });
+            } var imageup2 =
+              document.getElementById("imageup2"); if (imageup2) {
+                imageup2.addEventListener("click", function (e) {
+                  window.location.href =
+                    "/pecadebaixo";
+                });
+              } var imageup3 = document.getElementById("imageup3");
+    if (imageup3) {
+      imageup3.addEventListener("click", function (e) {
+        window.location.href = "/calssado";
+      });
+    } var imageup4 =
+      document.getElementById("imageup4"); if (imageup4) {
+        imageup4.addEventListener("click", function (e) {
+          window.location.href =
+            "/acessorio";
+        });
+      } var acessrioText =
+        document.getElementById("acessrioText"); if (acessrioText) {
+          acessrioText.addEventListener("click", function (e) {
+            window.location.href
+              = "/";
+          });
+        }
+  </script>
+</body>
+
+</html>

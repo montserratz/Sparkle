@@ -1,0 +1,280 @@
+.child48 {
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 26px;
+}
+
+.child49 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-lightpink);
+  width: 100%;
+  height: 25px;
+}
+
+.child50 {
+  position: absolute;
+  top: 51px;
+  left: 0px;
+  background-color: var(--color-powderblue);
+  width: 100%;
+  height: 27px;
+}
+
+.child51 {
+  position: absolute;
+  top: -108px;
+  left: 98px;
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 27px;
+}
+
+.child52 {
+  position: absolute;
+  top: 78px;
+  left: 0px;
+  background-color: var(--color-honeydew);
+  width: 100%;
+  height: 25px;
+}
+
+.child53 {
+  position: absolute;
+  top: 155px;
+  left: 939.9px;
+  width: 37px;
+  height: 34px;
+}
+
+.child54 {
+  position: absolute;
+  top: 155px;
+  left: 1157.9px;
+  width: 37px;
+  height: 34px;
+}
+
+.child55 {
+  position: absolute;
+  top: 155px;
+  left: 1349.9px;
+  width: 37px;
+  height: 34px;
+}
+
+.child56 {
+  position: absolute;
+  top: 155px;
+  left: 479.9px;
+  width: 37px;
+  height: 34px;
+}
+
+.child57 {
+  position: absolute;
+  top: 155px;
+  left: 262.9px;
+  width: 37px;
+  height: 34px;
+}
+
+.child58 {
+  position: absolute;
+  top: 155px;
+  left: 43.9px;
+  width: 37px;
+  height: 34px;
+}
+
+.child59 {
+  position: absolute;
+  top: 155px;
+  left: 709.9px;
+  width: 37px;
+  height: 34px;
+}
+
+.sparkle4 {
+  position: absolute;
+  top: 34px;
+  left: 850px;
+  font-size: var(--font-size-26xl);
+  font-family: var(--font-girassol);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 147px;
+  height: 34px;
+}
+
+.icon-14 {
+  position: absolute;
+  top: 22px;
+  left: 790px;
+  width: 65px;
+  height: 59px;
+  object-fit: cover;
+}
+
+.image-1-icon4 {
+  position: absolute;
+  top: 38px;
+  left: 56px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.cadastro {
+  position: absolute;
+  top: 276px;
+  left: 435px;
+  font-size: 60px;
+  letter-spacing: 0.4em;
+  font-family: var(--font-playfair-display-sc);
+  display: inline-block;
+  width: 593px;
+  height: 89px;
+}
+
+.group-child4 {
+  position: absolute;
+  font-size: 16px;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 149px;
+  height: 46px;
+}
+
+.group-child4:hover {
+  cursor: pointer;
+}
+
+.cadastrar {
+  position: absolute;
+  top: 11px;
+  left: 25px;
+  display: inline-block;
+  width: 98.3px;
+  height: 24.6px;
+}
+
+.rectangle-parent5 {
+  position: absolute;
+  top: 840px;
+  left: 653px;
+  width: 149px;
+  height: 46px;
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.group-child5 {
+  position: absolute;
+  font-size: 16px;
+  top: 0px;
+  left: 25px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 459px;
+  height: 50px;
+}
+
+.email1 {
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  display: inline-block;
+  width: 149px;
+  height: 39px;
+}
+
+.rectangle-parent6 {
+  position: absolute;
+  top: 555px;
+  left: 473px;
+  width: 484px;
+  height: 50px;
+  color: var(--color-gray);
+}
+
+.group-child6 {
+  position: absolute;
+  font-size: 16px;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 459px;
+  height: 50px;
+}
+
+.nome-completo {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  display: inline-block;
+  width: 149px;
+  height: 39px;
+}
+
+.rectangle-parent7 {
+  position: absolute;
+  top: 452px;
+  left: 503px;
+  width: 459px;
+  height: 50px;
+  color: var(--color-gray);
+}
+
+.group-child7 {
+  position: absolute;
+  font-size: 16px;
+  top: 0px;
+  left: 25.3px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 463.7px;
+  height: 50px;
+}
+
+.senha1 {
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  display: inline-block;
+  width: 150.5px;
+  height: 39px;
+}
+
+.rectangle-parent8 {
+  position: absolute;
+  top: 658px;
+  left: 473px;
+  width: 489px;
+  height: 50px;
+  color: var(--color-gray);
+}
+
+.div4 {
+  position: relative;
+  background-color: var(--color-aliceblue);
+  width: 100%;
+  height: 1456px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito-sans);
+}

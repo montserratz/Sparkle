@@ -1,0 +1,89 @@
+.frame-child {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  border-radius: 26px;
+  background-color: rgba(233, 233, 233, 0.69);
+  box-shadow:
+    0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 421px;
+  height: 246px;
+}
+.group-child {
+  position: absolute;
+  top: 0px;
+  left: 16.9px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 311.1px;
+  height: 50px;
+}
+.email {
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  display: inline-block;
+  width: 101px;
+  height: 39px;
+}
+.rectangle-group {
+  position: absolute;
+  top: 66px;
+  left: 64px;
+  width: 328px;
+  height: 50px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 137px;
+  left: 64px;
+  width: 328px;
+  height: 50px;
+}
+.group-inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightpink);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 85px;
+  height: 38px;
+}
+.confirmar {
+  position: absolute;
+  top: 9.5px;
+  left: 0px;
+  display: inline-block;
+  width: 86px;
+  height: 18.5px;
+}
+.group-div {
+  position: absolute;
+  top: 208px;
+  left: 188px;
+  width: 86px;
+  height: 38px;
+  cursor: pointer;
+  font-size: 15px;
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.rectangle-parent {
+  position: relative;
+  border-radius: 50px;
+  background-color: var(--color-white);
+  width: 472px;
+  height: 298px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray);
+  font-family: var(--font-nunito-sans);
+}
