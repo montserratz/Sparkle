@@ -18,6 +18,10 @@
 
 }
 
+.photos-select img:hover{
+  transform: scale(1.35);
+}
+
 .child1,
 .inner,
 .item,

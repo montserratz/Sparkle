@@ -23,6 +23,10 @@
 
 }
 
+.photos-select img:hover{
+  transform: scale(1.35);
+}
+
 
 .child73 {
   position: absolute;
