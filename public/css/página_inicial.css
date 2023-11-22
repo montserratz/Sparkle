@@ -213,6 +213,11 @@ button {
   cursor: pointer;
 }
 
+.imageup-1-icon4:hover{
+  transform: scale(1.35);
+}
+
+
 .group-child10 {
   position: absolute;
   top: 0px;
@@ -285,6 +290,10 @@ button {
   cursor: pointer;
 }
 
+.imageup-2-icon:hover{
+  transform: scale(1.35);
+}
+
 .imageup-3-icon {
   position: absolute;
   top: 1256px;
@@ -295,6 +304,11 @@ button {
   cursor: pointer;
 }
 
+.imageup-3-icon:hover{
+  transform: scale(1.35);
+}
+
+
 .imageup-4-icon {
   position: absolute;
   top: 1257px;
@@ -304,6 +318,11 @@ button {
   object-fit: cover;
   cursor: pointer;
 }
+
+.imageup-4-icon:hover{
+  transform: scale(1.35);
+}
+
 
 .acessrio2 {
   position: absolute;

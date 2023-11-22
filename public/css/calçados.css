@@ -14,6 +14,10 @@
 
 }
 
+.photos-select img:hover{
+  transform: scale(1.35);
+}
+
 .child10 {
   position: absolute;
   top: 0px;
