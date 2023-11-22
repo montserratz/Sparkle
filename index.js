@@ -94,7 +94,7 @@ app.use((req, res) => {
 });
 
 conn
-  .sync()
+  .sync({force: true})
   .then(() => {
     app.listen(port);
   })
