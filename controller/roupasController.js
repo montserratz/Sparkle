@@ -48,7 +48,7 @@ module.exports = class roupasController {
       nest: true,
     });
 
-    console.log(looks[1].User);
+    // console.log(looks[1]);
 
     res.render('AllLooks', { looks });
   }

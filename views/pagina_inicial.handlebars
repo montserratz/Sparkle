@@ -61,10 +61,10 @@
     <div class="look-flex">
       <img class='imageup-1-icon4' alt='' src='/img/imageup-11@2x.png' id='imageup1' />
       <form action='/postLook' method='post'>
-        <input value='' type='hidden' name='parte_cima' />
-        <input value='' type='hidden' name='parte_baixo' />
-        <input value='' type='hidden' name='calcado' />
-        <input value='' type='hidden' name='acessorio' />
+        <input value='' type='hidden' name='parte_cima' id="id_imgCima"/>
+        <input value='' type='hidden' name='parte_baixo' id="id_imgBaixo"/>
+        <input value='' type='hidden' name='calcado' id="id_imgCalcado"/>
+        <input value='' type='hidden' name='acessorio' id="id_imgAcessorio"/>
         <div class='rectangle-parent11' id='groupContainer'>
           <button type='submit' class='group-child10'>Combinar</button><br /><br />
         </div>
@@ -84,11 +84,16 @@
   </div>
   <script src='/js/getLocalStorage.js'></script>
   <script>
-    var imageup1 = document.getElementById("imageup1"); if (imageup1) {
+    var imageup1 = document.getElementById("imageup1");
+
+     if (imageup1) {
       imageup1.addEventListener("click", function (e) {
         window.location.href =
           "/pecadecima";
       });
+
+      
+
     } var groupContainer =
       document.getElementById("groupContainer"); if (groupContainer) {
         groupContainer.addEventListener("click", function (e) {
